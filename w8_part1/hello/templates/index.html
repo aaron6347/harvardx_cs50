@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<!--python parameter html jinja-->
+<div>
+    Hello, {{name}}!
+</div>
+<div>
+    Your random number is {{number}}.
+</div>
+<div>
+    {% if number2 == 1 %}
+        Your coin flip is HEAD.
+    {% else %}
+        Your coin flip is TAIL.
+    {% endif %}
+</div>
+<div>
+    <form action="/hello">
+        <input name="name2" type="text">
+        <input type="submit">
+    </form>
+</div>
+{% endblock %}

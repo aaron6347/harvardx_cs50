@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<title>Registrants</title>
+{% endblock %}
+
+{% block body %}
+<h1>Registrants</h1>
+<ul>
+    {% for each in row %}
+    <li>{{each["name"]}}, {{each["email"]}}</li>
+    {% endfor %}
+</ul>
+<a href="/register">Register</a>
+{% endblock %}

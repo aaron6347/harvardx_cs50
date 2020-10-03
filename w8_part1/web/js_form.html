@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Hello!
+        </title>
+        <script>
+            function greet()
+            {
+                //retrieve doc id from form
+                let name = document.querySelector('#user').value;
+                if (name === "")
+                {
+                    name = "world";
+                }
+                alert("Hello, "+ name + "!");
+                //send text value to the id in div
+                document.querySelector('#result').innerHTML = "Hello, " + name + "!";
+            }
+        </script>
+    </head>
+    <body>
+        <!--onsubmit call function, by defualt onsubmit will pass the submit result(return true)-->
+        <form onsubmit="greet(); return false;">
+            <input id="user" type="text">
+            <input type="submit">
+        </form>
+        <div id="result">
+            Hello!
+        </div>
+    </body>
+</html>
