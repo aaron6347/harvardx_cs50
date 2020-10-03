@@ -1,0 +1,371 @@
+/*all html -> body*/
+body
+{
+    background-color:#4a4138;
+}
+
+/*all html -> navbar*/
+.navbar_all
+{
+    background-color: #605448;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*index.html -> welcome div*/
+.index_welcome {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*index.html -> welcome img*/
+#welcomejpg
+{
+    /*ori: default but js*/
+    display: none;
+    width: 99%;
+}
+
+/*index.html -> textwelcome div*/
+.index_textwelcome {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20%;
+    /*ori: none but js*/
+    right: 5%;
+}
+
+/*index.html -> textwelcome img*/
+#textwelcomepng
+{
+    /*ori: default but js*/
+    display: none;
+    width: 35%;
+}
+
+/*index.html -> textthisis div*/
+.index_textthisis
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    /*ori: none but js*/
+    right: 5%;
+}
+
+/*index.html -> textthisis img*/
+#textthisispng
+{
+    /*ori: default but js*/
+    display: none;
+    width: 80%;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*about.html -> main div*/
+.introduction
+{
+    color: white;
+    background-color: #887258;
+    margin: 40px 40px 0 40px;
+    border: 18px solid #cf9e66;
+    height: 1500px;
+}
+
+/*about.html -> profile img*/
+#about_propic
+{
+    /*og: default but js*/
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+}
+
+/*about.html -> hello world h2*/
+#about_helloworld
+{
+    /*og: default but js*/
+    display: none;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: -175px;
+}
+
+/*about.html -> horizontal rule*/
+#about_hr
+{
+    /*og: default but js*/
+    display: none;
+    width: 460px;
+    border-width: 6px;
+    border-color: #EABFB9;
+    position: absolute;
+    top: 390px;
+    /*og: 50% but js */
+    left: 45%;
+    margin-top: 50px;
+    margin-left: -230px;
+}
+
+/*about.html -> i am h3*/
+#about_iam
+{
+    /*og: default but js*/
+    display: none;
+    color: yellow;
+    position: absolute;
+    top: 410px;
+    /*og: 50% but js */
+    left: 55%;
+    width: 80px;
+    margin-top: 70px;
+    margin-left: -40px;
+}
+
+/*about.html -> 2nd part div*/
+.about_2ndpart
+{
+    font-weight: 600;
+    font-size: 22px;
+    position: relative;
+    top: 360px;
+    left: 60%;
+    width: 730px;
+    margin-top: 70px;
+    margin-left: -425px;
+}
+
+/*about.html -> each row*/
+.imgandtext1, .imgandtext2, .imgandtext3, .imgandtext4
+{
+    opacity: 0;
+}
+
+/*about.html -> column*/
+.about_col
+{
+    margin-bottom: 60px;
+}
+
+/*about.html -> text*/
+.about_text
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*about.html -> my contact navbar p*/
+.about_mycontactbar
+{
+    background-color: #39322c;
+}
+
+/*about.html -> my contact p*/
+#about_mycontact
+{
+    color: white;
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+/*about.html -> my contact jpg*/
+.nav-item
+{
+    margin-right: 40px;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*hobby.html -> hobby div*/
+.hobbies
+{
+    background-color: #39322c;
+    margin: 40px 40px 40px 40px;
+}
+
+/*hobby.html -> hobby cardboard div*/
+.card-body
+{
+    background-color: #ffffcc;
+}
+
+/*hobby.html -> hobby card div*/
+.hobby_card
+{
+    /*ori: default but js*/
+    display: none;
+    width: 18rem;
+    border: 5px solid #bc9769;
+    margin-bottom: 30px;
+}
+
+/*hobby.html -> hobby card header h5*/
+.card-title span
+{
+    background-color: #1ab2ff;
+    border-radius: 13px;
+    padding: 5px 5px 5px 5px;
+    margin: -5px 0 0 -5px;
+    box-shadow: 3px -4px #ff66a3;
+}
+
+/*hobby.html -> hobby card text p*/
+.card-text
+{
+    background-color: #80ffff;
+    border-radius: 25px;
+    padding: 24px 10px 5px 10px;
+    margin-top: -29px;
+    box-shadow: 3px 4px #ffb3d1;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*progress.html -> slideshow div*/
+.slideshow
+{
+    /*ori: default but js*/
+    display: none;
+    background-color: #39322c;
+    padding: 15px 0 15px 0;
+    margin: 15px 20px 15px 20px;
+}
+
+/*progress.html -> slideshow img*/
+.d-block
+{
+    opacity: 0.5;
+}
+
+/*progress.html -> slideshow text h3*/
+.slideh3
+{
+    color: #f2cba0
+}
+.slideh3 span
+{
+    background-color:rgb(0, 0, 0, 0.8);
+    padding: 0 15px 0 15px;
+}
+
+/*progress.html -> slideshow hr*/
+.slidehr
+{
+    width: 56%;
+    text-align: center;
+    border-width: 4px;
+    border-color: #ffff00;
+}
+
+/*progress.html -> slideshow text p*/
+.slidetext
+{
+    color: white;
+    font-weight: 500;
+    font-size: 21px;
+    background-color: rgb(57, 50, 44, 0.9);
+    background-origin: padding-box;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 5px 8px #EABFB9;
+}
+
+/*progress.html -> slideshow prev a*/
+.carousel-control-prev-icon {
+    height: 40px;
+    width: 40px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/*progress.html -> slideshow next a*/
+.carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*appreciation.html -> mentions div*/
+.mentions
+{
+    color: white;
+    background-color: #39322c;
+    margin: 20px 20px 20px 20px;
+    border: 18px solid #887258;
+    height: 620px;
+}
+
+/*appreciation.html -> medal png*/
+#appreciation_medal
+{
+    /*ori: default but js*/
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    width: 160px;
+    height: 160px;
+    margin-left: -80px;
+}
+
+/*appreciation.html -> many thanks h4*/
+#appreciation_manythanks
+{
+    /*ori: default but js*/
+    display: none;
+    position: absolute;
+    width: 820px;
+    top: 240px;
+    left: 50%;
+    margin-left: -410px;
+}
+
+/*appreciation.html -> container div*/
+.appreciation_container
+{
+    position: relative;
+    top: 150px;
+    margin-top: 70px;
+}
+
+/*appreciation.html -> col-sm div*/
+.appreciation_col-sm
+{
+    text-align: center;
+}
+
+/*appreciation.html -> each col div*/
+.col1, .col2, .col3
+{
+    /*ori: default but js*/
+    opacity: 0;
+}
+
+/*appreciation.html -> names h3*/
+.names
+{
+    color: #cf9e66;
+    margin-top: 20px;
+}
+
+/*appreciation.html -> and also h4*/
+#appreciation_andalso
+{
+    /*ori: default but js*/
+    display: none;
+    position: absolute;
+    width: 680px;
+    top: 620px;
+    left: 50%;
+    margin-left: -340px;
+}

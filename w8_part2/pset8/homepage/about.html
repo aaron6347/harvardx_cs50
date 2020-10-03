@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>About Me</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+        // initialization
+            $(window).on('load', function(){
+                $("#about_propic").fadeIn(2000);
+                $("#about_helloworld").delay(800).slideDown(1200, function(){
+                    $("#about_hr").fadeIn(800).animate({"left": "+=5%"},{duration: 1000, queue: false});
+                    $("#about_iam").fadeIn(800).animate({"left": "-=5%"},{duration: 1000, queue: false});
+                    $(".imgandtext1").delay(1500).animate({opacity: 1}, 1000);
+                    $(".imgandtext2").delay(2000).animate({opacity: 1}, 1000);
+                    $(".imgandtext3").delay(2500).animate({opacity: 1}, 1000);
+                    $(".imgandtext4").delay(3000).animate({opacity: 1}, 1000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <!--navigation bar-->
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar_all">
+            <!--1st nav button with icon-->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/navbar/icons8-home-page-90.png" width=30 height=30 class="d-inline-block align-top" alt="home png">
+                Home
+            </a>
+            <!--other nav button with icon-->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="about.html">
+                        <img src="img/navbar/icons8-account-96.png" width=25 height=25 class="d-inline-block align-middle" alt="people png">
+                        About Me
+                    </a>
+                    <a class="nav-link" href="hobby.html">
+                        <img src="img/navbar/icons8-love-104.png" width=25 height=25 class="d-inline-block align-middle" alt="love png">
+                        Hobby & Interest
+                    </a>
+                    <a class="nav-link" href="progress.html">
+                        <img src="img/navbar/icons8-pass-fail-96.png" width=25 height=25 class="d-inline-block align-middle" alt="checklist png">
+                        My CS50
+                    </a>
+                    <a class="nav-link" href="appreciation.html">
+                        <img src="img/navbar/icons8-first-place-ribbon-256.png" width=25 height=25 class="d-inline-block align-middle" alt="medal png">
+                        Appreciation
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--about me-->
+        <div class="introduction">
+            <!--1st part-->
+            <div>
+                <img id="about_propic" src="img/about/propic.png" alt="profile png">
+                <h2 id="about_helloworld">
+                    Hello, world! I'm Aaron.
+                </h2>
+                <hr id="about_hr">
+                <h3 id="about_iam">
+                    I am...
+                </h3>
+            </div>
+            <!--2nd part-->
+            <div class="about_2ndpart">
+                <div class="row move_row imgandtext1">
+                    <div class="col-6 about_col">
+                        <img src="img/about/msia_circle.png" width=200 height=200 alt="msia png">
+                    </div>
+                    <div class="col-6 about_col about_text">
+                        from Malaysia.
+                    </div>
+                </div>
+                <div class="row move_row imgandtext2">
+                    <div class="col-6 about_col">
+                        <img src="img/about/programming_circle.png" width=200 height=200 alt="programming png" >
+                    </div>
+                    <div class="col-6 about_col about_text">
+                        3rd year Computer Science student.
+                    </div>
+                </div>
+                <div class="row move_row imgandtext3">
+                    <div class="col-6 about_col">
+                        <img src="img/about/ai_circle.png" width=200 height=200 alt="ai png">
+                    </div>
+                    <div class="col-6 about_col about_text">
+                        major in Intelligent System.
+                    </div>
+                </div>
+                <div class="row move_row imgandtext4">
+                    <div class="col-6 about_col">
+                        <img src="img/about/usm_circle.png" width=200 height=200 alt="usm png">
+                    </div>
+                    <div class="col-6 about_col about_text">
+                        studying in Universiti Sains Malaysia (USM).
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--contact me-->
+        <nav class="navbar navbar-expand-md navbar-dark about_mycontactbar">
+            <ul class="navbar-nav w-100 justify-content-center">
+                <li class="nav-item">
+                    <p class="navbar-brand mx-auto" id="about_mycontact">My contact:</p>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand mx-auto" href="mailto:siangsheng.chan@gmail.com"><img src="img/about/gmail-8-112411.png" width=50 height=50 alt="gmail png" loading="lazy"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand mx-auto" href="https://www.linkedin.com/in/aaron-chan-5a196b1a3/"><img src="img/about/linkedIn_PNG38.png" width=50 height=50 alt="linkedin png" loading="lazy"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand mx-auto" href="https://github.com/aaron6347"><img src="img/about/25231.png" width=50 height=50 alt="github png" loading="lazy"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand mx-auto" href="https://profile.codersrank.io/user/aaron6347"><img src="img/about/codersrank.png" width=50 height=50 alt="codersrank png" loading="lazy"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand mx-auto" href="https://www.hackerrank.com/aaron_mk"><img src="img/about/HackerRank_logo.png" width=50 height=50 alt="hackerrank png" loading="lazy"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand mx-auto" href="https://leetcode.com/aaron6347/"><img src="img/about/LeetCode_logo_black2.png" width=50 height=50 alt="leetcode png" loading="lazy"></a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </body>
+</html>

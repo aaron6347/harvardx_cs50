@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>My CS50 Homepage</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+        // initialization
+            $(window).on('load', function(){
+                $("#welcomejpg").fadeIn(1000);
+                $("#textwelcomepng").delay(400).fadeIn(800)
+                $(".index_textwelcome").delay(400).animate({"right": "-=5%"},{duration: 1000, queue: false});
+                $("#textthisispng").delay(900).fadeIn(1000)
+                $(".index_textthisis").delay(900).animate({"right": "-=5%"},{duration: 1500, queue: false});
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <!--navigation bar-->
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar_all" style="width:100%; white-space:nowrap;">
+            <!--1st nav button with icon-->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/navbar/icons8-home-page-90.png" width=30 height=30 class="d-inline-block align-top" alt="home png">
+                Home
+            </a>
+            <!--other nav button with icon-->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="about.html">
+                        <img src="img/navbar/icons8-account-96.png" width=25 height=25 class="d-inline-block align-middle" alt="people png">
+                        About Me
+                    </a>
+                    <a class="nav-link" href="hobby.html">
+                        <img src="img/navbar/icons8-love-104.png" width=25 height=25 class="d-inline-block align-middle" alt="love png">
+                        Hobby & Interest
+                    </a>
+                    <a class="nav-link" href="progress.html">
+                        <img src="img/navbar/icons8-pass-fail-96.png" width=25 height=25 class="d-inline-block align-middle" alt="checklist png">
+                        My CS50
+                    </a>
+                    <a class="nav-link" href="appreciation.html">
+                        <img src="img/navbar/icons8-first-place-ribbon-256.png" width=25 height=25 class="d-inline-block align-middle" alt="medal png">
+                        Appreciation
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--welcome-->
+        <div class="index_welcome container-fluid">
+            <img src="img/index/welcome.jpg" alt="welcome jpg" id="welcomejpg">
+            <div class="index_textwelcome container-fluid">
+                <img src="img/index/textwelcome.png" alt="textwelcome png" id="textwelcomepng">
+            </div>
+            <div class="index_textthisis container-fluid">
+	            <img src="img/index/textthisis.png" alt="textthisis png" id="textthisispng">
+            </div>
+        </div>
+
+
+    </body>
+</html>

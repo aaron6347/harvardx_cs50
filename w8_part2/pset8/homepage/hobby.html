@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>My Hobbies & Interests</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(window).on('load', function(){
+                $(".hobby_card").fadeIn(2000);
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <!--navigation bar-->
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar_all">
+            <!--1st nav button with icon-->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/navbar/icons8-home-page-90.png" width=30 height=30 class="d-inline-block align-top" alt="home png">
+                Home
+            </a>
+            <!--other nav button with icon-->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="about.html">
+                        <img src="img/navbar/icons8-account-96.png" width=25 height=25 class="d-inline-block align-middle" alt="people png">
+                        About Me
+                    </a>
+                    <a class="nav-link" href="hobby.html">
+                        <img src="img/navbar/icons8-love-104.png" width=25 height=25 class="d-inline-block align-middle" alt="love png">
+                        Hobby & Interest
+                    </a>
+                    <a class="nav-link" href="progress.html">
+                        <img src="img/navbar/icons8-pass-fail-96.png" width=25 height=25 class="d-inline-block align-middle" alt="checklist png">
+                        My CS50
+                    </a>
+                    <a class="nav-link" href="appreciation.html">
+                        <img src="img/navbar/icons8-first-place-ribbon-256.png" width=25 height=25 class="d-inline-block align-middle" alt="medal png">
+                        Appreciation
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--hobby card-->
+        <div class="hobbies">
+            <div class="container" style="padding: 20px 10px 20px 10px;">
+                <div class="row">
+                    <!--phone2 tablet2 largerdesktop(include desktop 1024)3-->
+                    <div class="col-xs-6 col-md-6 col-lg-4">
+                        <div class="card mx-auto hobby_card">
+                            <img src="img/hobby/swimming.jpg" class="card-img-top" alt="swimming jpg">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>Swimming</span></h5>
+                                <p class="card-text">Got into swimming when I was 15 years old. Swimming is an art as if you carve your path with your own hands.</p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-4">
+                        <div class="card mx-auto hobby_card">
+                            <img src="img/hobby/coding.png" class="card-img-top" alt="coding png">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>Programming</span></h5>
+                                <p class="card-text">Had little interest until I started to code C++ as my 1st programming language. Ever since then, never stop learning about programming and Computer Science.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-4">
+                        <div class="card mx-auto hobby_card">
+                            <img src="img/hobby/python.jpg" class="card-img-top" alt="python jpg">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>Python</span></h5>
+                                <p class="card-text">Introduced to Python by my relative suggestion. Impressed and love the its simplicity, pythonic and various supported framework and libraries. One of my favourites.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-4">
+                        <div class="card mx-auto hobby_card">
+                            <img src="img/hobby/sophia.jpg" class="card-img-top" alt="sophia jpg">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>Artificial Intelligence</span></h5>
+                                <p class="card-text">Believe in AI is the future. Machine Learning and Deep Learning are my enjoyable yet stressful study materials. Hoping to be able to make some of my own.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-4">
+                        <div class="card mx-auto hobby_card">
+                            <img src="img/hobby/csharp.png" class="card-img-top" alt="c# png">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>C#</span></h5>
+                                <p class="card-text">One of the languages on my bucketlist. C# has been numerous mentioned as one of the top 5 of current trend. Planning to start learning about it once I have completed my mobile apps development plan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-4">
+                        <div class="card mx-auto hobby_card">
+                            <img src="img/hobby/webpro.jpg" class="card-img-top" alt="web progrmaming jpg">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>Web Programming</span></h5>
+                                <p class="card-text">To master and understand well web programming. One should learn about multiple languages or technologies understand their cooperative and harmony. And this is one of my challenge!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-4">
+                        <div class="card mx-auto hobby_card">
+                            <img src="img/hobby/popcorn.jpg" class="card-img-top" alt="watch movies jpg">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>Watch movies</span></h5>
+                                <p class="card-text">Movie is one of my chill activity to do and popcorn is definitely one of the couldn't miss out food to pair with!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-4">
+                        <div class="card mx-auto hobby_card">
+                            <img src="img/hobby/gaming.jpg" class="card-img-top" alt="play games jpg">
+                            <div class="card-body">
+                                <h5 class="card-title"><span>Gaming</span></h5>
+                                <p class="card-text">Play games with some chill or pop songs is one of my daily task. I enjoy playing some non-competitive games and sometimes I would get interest or idea from game!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
